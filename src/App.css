@@ -1,0 +1,148 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-body {
+  background-color: #282c34;
+  min-height: 80vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.flat-button {
+  background: transparent;
+  color: #fff;
+  padding: 10px 15px;
+  border: solid 1px #fff;
+}
+
+.qna-header {
+  border-bottom: solid 1px #fff;
+  width: 350px;
+}
+
+.qna-header > .title {
+  margin-bottom: 20px;
+}
+
+.qna-header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.qna-body {
+  width: 350px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.qna-body > .title,
+.newpost-container > .title {
+  margin-bottom: 20px;
+}
+
+.newpost-container {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 30px 0;
+}
+
+.newpost-container > .subheading {
+  font-size: 0.7em;
+  margin-bottom: 20px;
+}
+
+.user-rating {
+  display: flex;
+  align-items: flex-start;
+}
+
+.user-rating > span {
+  font-size: 0.8em;
+  margin-left: 20px;
+}
+
+.user-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-input > .subheading {
+  margin-bottom: 10px;
+}
+
+.user-input > textarea,
+.user-input > input {
+  background: transparent;
+  border: solid 1px #fff;
+  color: #ffffff;
+  margin-bottom: 20px;
+  border-radius: 0;
+  padding: 10px;
+}
+
+.user-input > textarea {
+  height: 100px;
+}
+
+.MuiSelect-select {
+  border-color: #fff;
+}
+
+.post-wrapper {
+  margin-bottom: 10px;
+  padding: 20px 0;
+  border-bottom: solid 1px #fff;
+}
+
+.post-wrapper > .post-title {
+  margin-bottom: 10px;
+}
+
+.post-wrapper > .post-body {
+  font-size: 0.6em;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
